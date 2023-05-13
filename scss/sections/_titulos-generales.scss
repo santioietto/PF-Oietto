@@ -1,0 +1,46 @@
+/* Seccion titulo de madres, padrillos, potrillos e imagen */
+.nombres-imp h2,
+.mainsementales__titulopadrillos {
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+    font-size: 35px;
+}
+
+
+.fondo-secciones-titulo {
+    font-size: 40px;
+    background-color: #512421;
+    width: 100vw;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Noticia Text', serif;
+}
+
+
+// media query - estrategia mobile last//
+@media (max-width:576px) {
+
+    .nombres-imp h2,
+    .mainsementales__titulopadrillos {
+        font-size: 28px
+    }
+
+    .fondo-secciones-titulo {
+
+        text-align: center;
+    }
+}
+
+
+@media (max-width:390px) {
+    .fondo-secciones-titulo {
+        height: 75px;
+        font-size: 30px;
+
+    }
+}

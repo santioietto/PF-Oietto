@@ -1,0 +1,88 @@
+/* SECCION PRODUCTOS EN VENTA */
+.prod-venta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "potrillo1 potrillo2 potrillo3"
+        "potrillo4 potrillo5 potrillo6";
+}
+
+.potrillo1 {
+    grid-area: potrillo1;
+    @extend .grid-prod;
+}
+
+.potrillo2 {
+    grid-area: potrillo2;
+    @extend .grid-prod;
+}
+
+.potrillo3 {
+    grid-area: potrillo3;
+    @extend .grid-prod;
+}
+
+.potrillo4 {
+    grid-area: potrillo4;
+    @extend .grid-prod;
+}
+
+.potrillo5 {
+    grid-area: potrillo5;
+    @extend .grid-prod;
+}
+
+.potrillo6 {
+    grid-area: potrillo6;
+    @extend .grid-prod;
+}
+
+.potrillo1,
+.potrillo2,
+.potrillo3,
+.potrillo4,
+.potrillo5,
+.potrillo6 {
+    overflow: hidden;
+}
+
+.flex-enlace {
+    display: flex;
+    justify-content: center;
+
+    a {
+        &:visited {
+            color: lighten($color: gray, $amount: 10);
+        }
+
+        &:active {
+            color: $color-principal;
+        }
+    }
+}
+
+
+// media query - estrategia mobile last//
+@media (max-width:576px) {
+    .prod-venta {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "potrillo1"
+            "potrillo2"
+            "potrillo3"
+            "potrillo4"
+            "potrillo5"
+            "potrillo6";
+
+    }
+    .potrillo1, .potrillo2, .potrillo3, .potrillo4, .potrillo5, .potrillo6{
+        
+        .tamaño-potrillos{
+            max-width: 100%;
+        }
+    }
+}

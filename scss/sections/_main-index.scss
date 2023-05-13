@@ -1,0 +1,72 @@
+/* main index */
+.mainindex {
+    &__carrusel {
+        width: 100vw;
+    }
+
+    &__tituloharas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: $color-principal;
+        width: 100vw;
+        height: 150px;
+        margin-top: 10px;
+
+        h1 {
+            font-size: 60px;
+            font-family: 'Noticia Text', serif;
+            text-align: center;
+        }
+    }
+
+
+
+    h3 {
+        font-family: "Caveat";
+        font-style: italic;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    &__parrafoinicio {
+        p {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Noticia Text', serif;
+        }
+    }
+}
+
+
+
+// media query - estrategia mobile last//
+@media (max-width:576px) {
+    .mainindex{
+        &__tituloharas {
+            height: 90px;
+            h1 {
+                font-size: 36px;
+                margin: 10px;
+            }
+        }
+    
+        h3 {
+            font-size: 33px;
+        }
+    
+        &__parrafoinicio {
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+}

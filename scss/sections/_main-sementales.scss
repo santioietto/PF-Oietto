@@ -1,0 +1,44 @@
+/* SECCION SEMENTALES */
+.mainsementales {
+    &__flexsementales {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__infosementales {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+// media query - estrategia mobile last//
+@media (max-width:576px) {
+    .mainsementales{
+        &__titulopadrillos {
+            font-size: 30px;
+        }
+        
+        .tamaño-padrillos {
+            width: 350px;
+            margin: auto;
+            padding: 10px;
+        }
+        .video {
+            width: 250px;
+            height: 215px;
+            margin: auto;
+        }
+        &__infosementales{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+        
+
+}

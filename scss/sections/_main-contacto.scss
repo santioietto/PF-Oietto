@@ -1,0 +1,70 @@
+/* SECCION CONTACTO */
+.maincontacto {
+    div {
+        form {
+            height: 45vh;
+            
+            .maincontacto__block {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                .input-cont {
+                    border-radius: 5px;
+                    font-size: 15px;
+                    margin: 20px;
+                    height: 30px;
+                    text-align: center;
+
+                    &:focus {
+                        transform: scale(1.1);
+                        transition: .3s;
+                    }
+                }
+
+                .boton {
+                    border-radius: 10%;
+                    padding: 3px;
+                    background-color: white;
+
+                    &:hover {
+                        border-color: white;
+                        color: white;
+                        background-color: #512421;
+                        border-radius: 10%;
+                    }
+                }
+
+                .caja-mensaje {
+                    height: 100px;
+                    width: 600px;
+                }
+            }
+        }
+
+        iframe {
+            height: 20vh;
+            width: 100vw;
+        }
+    }
+}
+
+
+   // media query - estrategia mobile last//
+   @media (max-width:576px){
+    .maincontacto{
+        div{
+            form{
+                height: 50vh;
+                &__block{
+                    .caja-mensaje {
+                        height: 80px;
+                        width: 400px;
+                    }
+        
+                }
+            }
+        }
+    }
+}
