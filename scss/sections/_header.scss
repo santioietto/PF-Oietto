@@ -9,7 +9,10 @@
     z-index: 5000;
     top: 0;
     border-bottom: 3px solid $color-principal;
-
+    .container-fluid{
+        display: flex;
+        justify-content: space-around;
+    }
     &__logo {
         a {
             img {
@@ -22,24 +25,27 @@
     &__colornav {
         background-color: white !important;
         
-        form {
-            .bus-color {
-                color: $color-principal;
-                border-color: $color-principal;
+    }
+    a{
+        color: gray !important;
+        transition: .7s ease;
+    }
+    a:hover{
+        color: black !important ;
+        filter: opacity(2) !important;
+        font-size: 23px;
+    }
+    form {
+        .bus-color {
+            color: $color-principal;
+            border-color: $color-principal;
 
-                &:hover {
-                    background-color: $color-principal !important;
-                    border-color: white !important;
-                    color: white;
-                }
+            &:hover {
+                background-color: $color-principal !important;
+                border-color: white !important;
+                color: white;
             }
         }
-        a{
-            color: gray !important;
-        }
-        a:hover{
-            color: black !important ;
-        }
-        
+    
     }
 }

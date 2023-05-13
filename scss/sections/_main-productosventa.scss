@@ -1,6 +1,7 @@
 /* SECCION PRODUCTOS EN VENTA */
 .prod-venta {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
