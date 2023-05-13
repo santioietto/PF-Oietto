@@ -63,30 +63,106 @@
     <main class="maincontacto">
         <!-- Titulo principal de la seccion-->
         <h1 class="fondo-secciones-titulo">CONTACTO</h1>
-        <div>
-            <form action="#" method="get">
-                <!-- Flex en cajas de formularios -->
-                <div class="maincontacto__block">
-                    <input class="input-cont" type="text" placeholder="Nombre" name="nombre">
+        <div class="container">
+            <div class="row formulario">
+                <div class="col-lg-7 mx-auto ">
+                <div class="card mt-2 mx-auto p-4 bg-light colorform">
+                    <div class="card-body bg-light colorform">
+                        
+                        <div class="container ">
+                                <form id="contact-form" role="form">
 
-                    <input class="input-cont" type="text" placeholder="Apellido" name="apellido">
 
-                    <input class="input-cont" type="number" placeholder="Telefono" name="telefono">
+
+                                    <div class="controls">
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_name">Nombre*</label>
+                                                    <input id="form_name" type="text" name="name" class="form-control"
+                                                        placeholder="Ingresa tu nombre*" required="required"
+                                                        data-error="Firstname is required.">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_lastname">Apellido*</label>
+                                                    <input id="form_lastname" type="text" name="surname"
+                                                        class="form-control" placeholder="Ingresa tu apellido*"
+                                                        required="required" data-error="Lastname is required.">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_email">Email*</label>
+                                                    <input id="form_email" type="email" name="email"
+                                                        class="form-control" placeholder="Ingresa tu email*"
+                                                        required="required" data-error="Valid email is required.">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_need">Motivo de consulta*</label>
+                                                    <select id="form_need" name="need" class="form-control"
+                                                        required="required" data-error="Haz tu consulta">
+                                                        <option value="" selected disabled>--Seleccionar asunto--
+                                                        </option>
+                                                        <option>Información</option>
+                                                        <option>Reclamos</option>
+                                                        <option>Sugerencias</option>
+                                                        <option>Otros</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="form_message">Mensaje*</label>
+                                                    <textarea id="form_message" name="message" class="form-control"
+                                                        placeholder="Escribe tu mensaje aqui" rows="4"
+                                                        required="required"
+                                                        data-error="Please, leave us a message."></textarea>
+                                                        <br>
+                                                        <br>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-12">
+
+                                                <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                                    " value="Enviar">
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- /.8 -->
+
                 </div>
-                <!-- Flex para acomodar caja mensajes -->
-                <div class="maincontacto__block">
-                    <input class="input-cont caja-mensaje" type="text" placeholder="Mensaje" name="mensaje">
-                </div>
-                <!-- Flex para acomodar el boton enviar -->
-                <div class="maincontacto__block">
-                    <input class="boton" type="submit">
-                </div>
-            </form>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.4332728216755!2d-100.32817972364626!3d33.62000614042894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86556c6d61531a8d%3A0xb5b38003f3c6e0ad!2s601%206666%20Rd%2C%20Guthrie%2C%20TX%2079236%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1682766204157!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- /.row-->
+
+            </div>
         </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.4332728216755!2d-100.32817972364626!3d33.62000614042894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86556c6d61531a8d%3A0xb5b38003f3c6e0ad!2s601%206666%20Rd%2C%20Guthrie%2C%20TX%2079236%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1682766204157!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
 
     <footer class="footer">

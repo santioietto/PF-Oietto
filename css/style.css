@@ -19,7 +19,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  /* height: 10vh; */
   background-color: white;
   position: sticky;
   z-index: 5000;
@@ -37,6 +36,10 @@
         background-color: #512421 !important;
         border-color: white !important;
         color: white; }
+    .header__colornav a {
+      color: gray !important; }
+    .header__colornav a:hover {
+      color: black !important; }
 
 /* footer */
 .footer {
@@ -358,42 +361,22 @@
     max-width: 100%; } }
 
 /* SECCION CONTACTO */
-.maincontacto div form {
-  height: 45vh; }
-  .maincontacto div form .maincontacto__block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-    .maincontacto div form .maincontacto__block .input-cont {
-      border-radius: 5px;
-      font-size: 15px;
-      margin: 20px;
-      height: 30px;
-      text-align: center; }
-      .maincontacto div form .maincontacto__block .input-cont:focus {
-        transform: scale(1.1);
-        transition: .3s; }
-    .maincontacto div form .maincontacto__block .boton {
-      border-radius: 10%;
-      padding: 3px;
-      background-color: white; }
-      .maincontacto div form .maincontacto__block .boton:hover {
-        border-color: white;
-        color: white;
-        background-color: #512421;
-        border-radius: 10%; }
-    .maincontacto div form .maincontacto__block .caja-mensaje {
-      height: 100px;
-      width: 600px; }
+.maincontacto .formulario {
+  margin-bottom: 1rem; }
+  .maincontacto .formulario .colorform {
+    background-color: rgba(230, 230, 230, 0.856) !important; }
+  .maincontacto .formulario .btn {
+    background-color: #512421;
+    border: 1px solid black; }
+  .maincontacto .formulario .btn:hover {
+    background-color: #b95952;
+    color: black; }
 
-.maincontacto div iframe {
+.maincontacto iframe {
+  margin-top: 1rem;
   height: 20vh;
-  width: 100vw; }
+  width: 100%; }
 
 @media (max-width: 576px) {
-  .maincontacto div form {
-    height: 50vh; }
-    .maincontacto div form__block .caja-mensaje {
-      height: 80px;
-      width: 400px; } }
+  iframe {
+    display: none; } }
