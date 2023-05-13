@@ -1,8 +1,5 @@
 /* main index */
 .mainindex {
-    &__carrusel {
-        width: 100vw;
-    }
 
     &__tituloharas {
         display: flex;
@@ -10,7 +7,6 @@
         align-items: center;
         color: white;
         background-color: $color-principal;
-        width: 100vw;
         height: 150px;
         margin-top: 10px;
 
