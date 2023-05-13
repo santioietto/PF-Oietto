@@ -1,10 +1,13 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Instrument+Serif&family=Noticia+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Instrument+Serif&family=Noticia+Text&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Noticia Text', serif; }
 
 .grid-prod, .potrillo1, .potrillo2, .potrillo3, .potrillo4, .potrillo5, .potrillo6 {
-  width: 500px;
+  width: 90%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -49,8 +52,7 @@
     .footer__ul li {
       text-align: center;
       color: black;
-      list-style: none;
-      font-family: 'Noticia Text', serif; }
+      list-style: none; }
   .footer__div a img {
     width: 20px; }
 
@@ -68,7 +70,6 @@
 .nombres-imp h2,
 .mainsementales__titulopadrillos {
   text-align: center;
-  font-family: 'Noticia Text', serif;
   font-size: 35px; }
 
 .fondo-secciones-titulo {
@@ -81,8 +82,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 20px;
-  font-family: 'Noticia Text', serif; }
+  margin-bottom: 20px; }
 
 @media (max-width: 576px) {
   .nombres-imp h2,
@@ -111,7 +111,6 @@
   margin-top: 10px; }
   .mainindex__tituloharas h1 {
     font-size: 60px;
-    font-family: 'Noticia Text', serif;
     text-align: center; }
 
 .mainindex h3 {
@@ -127,8 +126,7 @@
   margin: auto;
   padding: 20px;
   font-size: 20px;
-  text-align: center;
-  font-family: 'Noticia Text', serif; }
+  text-align: center; }
 
 @media (max-width: 576px) {
   .mainindex__tituloharas {
@@ -172,8 +170,7 @@
 /* MAIN SECCION MADRES */
 .negrita {
   font-weight: bold;
-  font-size: 20px;
-  font-family: 'Noticia Text', serif; }
+  font-size: 20px; }
 
 .negrita-hijos {
   font-weight: bolder; }
@@ -194,7 +191,6 @@
   background-color: whitesmoke;
   height: 50rem;
   text-align: left;
-  font-family: 'Noticia Text', serif;
   padding: 40px;
   margin: auto; }
 
@@ -203,7 +199,6 @@
   background-color: whitesmoke;
   height: 50rem;
   text-align: left;
-  font-family: 'Noticia Text', serif;
   padding: 40px;
   margin: auto; }
 
@@ -220,7 +215,6 @@
   background-color: whitesmoke;
   height: 50rem;
   text-align: left;
-  font-family: 'Noticia Text', serif;
   padding: 120px 40px 0 40px;
   margin: auto; }
 
@@ -229,7 +223,6 @@
   background-color: whitesmoke;
   height: 50rem;
   text-align: left;
-  font-family: 'Noticia Text', serif;
   padding: 120px 40px 0 40px;
   margin: auto; }
 
@@ -246,7 +239,6 @@
   background-color: whitesmoke;
   height: 50rem;
   text-align: left;
-  font-family: 'Noticia Text', serif;
   padding: 120px 40px 0 40px;
   margin: auto; }
 
