@@ -12,6 +12,7 @@
 /* madres grid */
 .grid-madres {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -21,68 +22,66 @@
         "hempen-tb hempen-img"
         "creme-img creme-tb";
 }
+
 .dashin-img {
     grid-area: dashin-img;
-    margin: auto;
+    
 }
+
 .dashin-tb {
     grid-area: dashin-tb;
     background-color: whitesmoke;
-    height: 50rem;
     text-align: left;
     padding: 40px;
-    margin: auto;
+    height: 100%;
 }
+
 .ava-tb {
     grid-area: ava-tb;
     background-color: whitesmoke;
-    height: 50rem;
     text-align: left;
     padding: 40px;
-    margin: auto;
+    height: 100%;
 }
+
 .ava-img {
     grid-area: ava-img;
-    margin: auto;
 }
+
 .fell-img {
     grid-area: fell-img;
-    margin: auto;
 }
+
 .fell-tb {
     grid-area: fell-tb;
     background-color: whitesmoke;
-    height: 50rem;
     text-align: left;
-    padding: 120px 40px 0 40px;
-    margin: auto;
+    padding: 120px 40px 10px 40px;
+    height: 100%;
 }
 
 .hempen-tb {
     grid-area: hempen-tb;
     background-color: whitesmoke;
-    height: 50rem;
     text-align: left;
-    padding: 120px 40px 0 40px;
-    margin: auto;
+    padding: 120px 40px 10px 40px;
+    height: 100%;
 }
+
 .hempen-img {
     grid-area: hempen-img;
-    margin: auto;
 }
 
 .creme-img {
     grid-area: creme-img;
-    margin: auto;
 }
 
 .creme-tb {
     grid-area: creme-tb;
     background-color: whitesmoke;
-    height: 50rem;
     text-align: left;
-    padding: 120px 40px 0 40px;
-    margin: auto;
+    padding: 120px 40px 10px 40px;
+    height: 100%;
 }
 
 // media query - estrategia mobile last//
@@ -102,85 +101,106 @@
             "creme-img"
             "creme-tb";
     }
-    .dashin-img{
+
+    .dashin-img {
         max-width: 100%;
-        img{
+
+        img {
             max-width: 100%;
         }
+
         background-color:whitesmoke;
     }
-    .dashin-tb{
+
+    .dashin-tb {
         max-width: 100%;
         margin: 0;
         padding: 40px;
         height: 78rem;
         background-color: white;
     }
-    .ava-img{
+
+    .ava-img {
         max-width: 100%;
-        img{
+
+        img {
             max-width: 100%;
         }
-        background-color:whitesmoke ;
+
+        background-color:whitesmoke;
         padding: 10 40px;
         margin: 0;
     }
-    .ava-tb{
+
+    .ava-tb {
         max-width: 100%;
         padding: 40px;
         margin: 0;
         background-color: white;
         height: 90rem;
     }
-    .fell-img{
+
+    .fell-img {
         max-width: 100%;
-        img{
+
+        img {
             max-width: 100%;
         }
-        background-color:whitesmoke ;
+
+        background-color:whitesmoke;
         padding: 10 40px;
         margin: 0;
     }
-    .fell-tb{
+
+    .fell-tb {
         max-width: 100%;
         padding: 40px;
         background-color: white;
         height: 35rem;
         margin: 0;
     }
-    .hempen-img{
+
+    .hempen-img {
         max-width: 100%;
-        img{
+
+        img {
             max-width: 100%;
         }
-        background-color:whitesmoke ;
+
+        background-color:whitesmoke;
         padding: 10 40px;
         margin: 0;
     }
-    .hempen-tb{
+
+    .hempen-tb {
         max-width: 100%;
         padding: 40px;
         background-color: white;
         height: 60rem;
         margin: 0;
     }
-    .creme-img{
+
+    .creme-img {
         max-width: 100%;
-        img{
+
+        img {
             max-width: 100%;
         }
-        background-color:whitesmoke ;
+
+        background-color:whitesmoke;
         padding: 10 40px;
         margin: 0;
     }
-    .creme-tb{
+
+    .creme-tb {
         max-width: 100%;
         background-color: white;
         padding: 40px;
         height: 30rem;
         margin: 0;
     }
-     p{
+
+    p {
         font-size: 15px;
-     }
+    }
 }

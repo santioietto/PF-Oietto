@@ -48,7 +48,7 @@
 
 /* footer */
 .footer {
-  padding-top: 15px;
+  padding-top: 10px;
   background-color: white;
   border-top: 3px solid #512421;
   display: flex;
@@ -180,69 +180,60 @@
 /* madres grid */
 .grid-madres {
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "dashin-img dashin-tb" "ava-tb ava-img" "fell-img fell-tb" "hempen-tb hempen-img" "creme-img creme-tb"; }
 
 .dashin-img {
-  grid-area: dashin-img;
-  margin: auto; }
+  grid-area: dashin-img; }
 
 .dashin-tb {
   grid-area: dashin-tb;
   background-color: whitesmoke;
-  height: 50rem;
   text-align: left;
   padding: 40px;
-  margin: auto; }
+  height: 100%; }
 
 .ava-tb {
   grid-area: ava-tb;
   background-color: whitesmoke;
-  height: 50rem;
   text-align: left;
   padding: 40px;
-  margin: auto; }
+  height: 100%; }
 
 .ava-img {
-  grid-area: ava-img;
-  margin: auto; }
+  grid-area: ava-img; }
 
 .fell-img {
-  grid-area: fell-img;
-  margin: auto; }
+  grid-area: fell-img; }
 
 .fell-tb {
   grid-area: fell-tb;
   background-color: whitesmoke;
-  height: 50rem;
   text-align: left;
-  padding: 120px 40px 0 40px;
-  margin: auto; }
+  padding: 120px 40px 10px 40px;
+  height: 100%; }
 
 .hempen-tb {
   grid-area: hempen-tb;
   background-color: whitesmoke;
-  height: 50rem;
   text-align: left;
-  padding: 120px 40px 0 40px;
-  margin: auto; }
+  padding: 120px 40px 10px 40px;
+  height: 100%; }
 
 .hempen-img {
-  grid-area: hempen-img;
-  margin: auto; }
+  grid-area: hempen-img; }
 
 .creme-img {
-  grid-area: creme-img;
-  margin: auto; }
+  grid-area: creme-img; }
 
 .creme-tb {
   grid-area: creme-tb;
   background-color: whitesmoke;
-  height: 50rem;
   text-align: left;
-  padding: 120px 40px 0 40px;
-  margin: auto; }
+  padding: 120px 40px 10px 40px;
+  height: 100%; }
 
 @media (max-width: 576px) {
   .grid-madres {
