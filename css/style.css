@@ -254,13 +254,13 @@
     max-width: 100%;
     padding: 40px;
     margin: 0;
-    background-color: white;
-    border-bottom: 1px solid black; }
+    background-color: white; }
   .ava-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0; }
+    margin: 0;
+    border-top: 1px solid black; }
     .ava-img img {
       max-width: 100%;
       padding: 0 10px; }
@@ -268,13 +268,13 @@
     max-width: 100%;
     padding: 40px;
     margin: 0;
-    background-color: white;
-    border-bottom: 1px solid black; }
+    background-color: white; }
   .fell-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0; }
+    margin: 0;
+    border-top: 1px solid black; }
     .fell-img img {
       max-width: 100%;
       padding: 0 10px; }
@@ -282,13 +282,13 @@
     max-width: 100%;
     padding: 40px;
     background-color: white;
-    margin: 0;
-    border-bottom: 1px solid black; }
+    margin: 0; }
   .hempen-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0; }
+    margin: 0;
+    border-top: 1px solid black; }
     .hempen-img img {
       max-width: 100%;
       padding: 0 10px; }
@@ -296,13 +296,13 @@
     max-width: 100%;
     padding: 40px;
     background-color: white;
-    margin: 0;
-    border-bottom: 1px solid black; }
+    margin: 0; }
   .creme-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0; }
+    margin: 0;
+    border-top: 1px solid black; }
     .creme-img img {
       max-width: 100%;
       padding: 0 10px; }
