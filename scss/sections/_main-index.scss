@@ -44,6 +44,7 @@
 // media query - estrategia mobile last//
 @media (max-width:576px) {
     .mainindex{
+        height: 70vh;
         &__tituloharas {
             height: 90px;
             h1 {
@@ -58,7 +59,7 @@
     
         &__parrafoinicio {
             p {
-                font-size: 20px;
+                font-size: 1rem;
             }
         }
     }

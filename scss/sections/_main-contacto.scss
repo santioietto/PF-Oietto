@@ -26,6 +26,9 @@
 
 // media query - estrategia mobile last//
 @media (max-width:576px) {
+    .d-flex{
+        display: none !important;
+    }
     iframe {
         display: none;
     }

@@ -131,15 +131,17 @@
   text-align: center; }
 
 @media (max-width: 576px) {
-  .mainindex__tituloharas {
-    height: 90px; }
-    .mainindex__tituloharas h1 {
-      font-size: 36px;
-      margin: 10px; }
-  .mainindex h3 {
-    font-size: 33px; }
-  .mainindex__parrafoinicio p {
-    font-size: 20px; } }
+  .mainindex {
+    height: 70vh; }
+    .mainindex__tituloharas {
+      height: 90px; }
+      .mainindex__tituloharas h1 {
+        font-size: 36px;
+        margin: 10px; }
+    .mainindex h3 {
+      font-size: 33px; }
+    .mainindex__parrafoinicio p {
+      font-size: 1rem; } }
 
 /* SECCION SEMENTALES */
 .mainsementales__flexsementales {
@@ -238,73 +240,78 @@
 @media (max-width: 576px) {
   .grid-madres {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1.2fr 0.3fr 1.4fr 0.3fr 0.2fr 0.3fr 0.8fr 0.3fr 0.5fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 0.2fr 0.3fr 0.8fr 0.3fr 0.5fr;
     grid-template-areas: "dashin-img" "dashin-tb" "ava-img" "ava-tb" "fell-img" "fell-tb" "hempen-img" "hempen-tb" "creme-img" "creme-tb"; }
   .dashin-img {
     max-width: 100%;
-    background-color: whitesmoke; }
+    background-color: whitesmoke;
+    border-top: 1px solid black; }
     .dashin-img img {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 10px; }
   .dashin-tb {
     max-width: 100%;
-    margin: 0;
     padding: 40px;
-    height: 78rem;
-    background-color: white; }
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid black; }
   .ava-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
     margin: 0; }
     .ava-img img {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 10px; }
   .ava-tb {
     max-width: 100%;
     padding: 40px;
     margin: 0;
     background-color: white;
-    height: 90rem; }
+    border-bottom: 1px solid black; }
   .fell-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
     margin: 0; }
     .fell-img img {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 10px; }
   .fell-tb {
     max-width: 100%;
     padding: 40px;
     background-color: white;
-    height: 35rem;
-    margin: 0; }
+    margin: 0;
+    border-bottom: 1px solid black; }
   .hempen-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
     margin: 0; }
     .hempen-img img {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 10px; }
   .hempen-tb {
     max-width: 100%;
     padding: 40px;
     background-color: white;
-    height: 60rem;
-    margin: 0; }
+    margin: 0;
+    border-bottom: 1px solid black; }
   .creme-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
     margin: 0; }
     .creme-img img {
-      max-width: 100%; }
+      max-width: 100%;
+      padding: 0 10px; }
   .creme-tb {
     max-width: 100%;
     background-color: white;
     padding: 40px;
-    height: 30rem;
     margin: 0; }
   p {
-    font-size: 15px; } }
+    font-size: 1rem; } }
 
 /* SECCION PRODUCTOS EN VENTA */
 .prod-venta {
@@ -376,5 +383,7 @@
   width: 100%; }
 
 @media (max-width: 576px) {
+  .d-flex {
+    display: none !important; }
   iframe {
     display: none; } }

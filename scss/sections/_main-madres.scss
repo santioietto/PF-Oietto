@@ -25,7 +25,7 @@
 
 .dashin-img {
     grid-area: dashin-img;
-    
+
 }
 
 .dashin-tb {
@@ -88,7 +88,7 @@
 @media (max-width:576px) {
     .grid-madres {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 1.2fr 0.3fr 1.4fr 0.3fr 0.2fr 0.3fr 0.8fr 0.3fr 0.5fr;
+        grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 0.2fr 0.3fr 0.8fr 0.3fr 0.5fr;
         grid-template-areas:
             "dashin-img"
             "dashin-tb"
@@ -104,32 +104,37 @@
 
     .dashin-img {
         max-width: 100%;
+        background-color: whitesmoke;
+        border-top: 1px solid black;
 
         img {
             max-width: 100%;
+            padding: 0 10px;
         }
 
-        background-color:whitesmoke;
+
     }
 
     .dashin-tb {
         max-width: 100%;
-        margin: 0;
         padding: 40px;
-        height: 78rem;
+        margin: 0;
         background-color: white;
+        border-bottom: 1px solid black;
     }
 
     .ava-img {
         max-width: 100%;
+        background-color: whitesmoke;
+        padding: 10 40px;
+        margin: 0;
 
         img {
             max-width: 100%;
+            padding: 0 10px;
         }
 
-        background-color:whitesmoke;
-        padding: 10 40px;
-        margin: 0;
+
     }
 
     .ava-tb {
@@ -137,7 +142,7 @@
         padding: 40px;
         margin: 0;
         background-color: white;
-        height: 90rem;
+        border-bottom: 1px solid black;
     }
 
     .fell-img {
@@ -145,6 +150,7 @@
 
         img {
             max-width: 100%;
+            padding: 0 10px;
         }
 
         background-color:whitesmoke;
@@ -156,51 +162,52 @@
         max-width: 100%;
         padding: 40px;
         background-color: white;
-        height: 35rem;
         margin: 0;
+        border-bottom: 1px solid black;
     }
 
     .hempen-img {
         max-width: 100%;
+        background-color: whitesmoke;
+        padding: 10 40px;
+        margin: 0;
 
         img {
             max-width: 100%;
+            padding: 0 10px;
         }
-
-        background-color:whitesmoke;
-        padding: 10 40px;
-        margin: 0;
     }
 
     .hempen-tb {
         max-width: 100%;
         padding: 40px;
         background-color: white;
-        height: 60rem;
         margin: 0;
+        border-bottom: 1px solid black;
     }
 
     .creme-img {
         max-width: 100%;
+        background-color: whitesmoke;
+        padding: 10 40px;
+        margin: 0;
 
         img {
             max-width: 100%;
+            padding: 0 10px;
         }
 
-        background-color:whitesmoke;
-        padding: 10 40px;
-        margin: 0;
+
     }
 
     .creme-tb {
         max-width: 100%;
         background-color: white;
         padding: 40px;
-        height: 30rem;
         margin: 0;
     }
 
     p {
-        font-size: 15px;
+        font-size: 1rem;
     }
 }
