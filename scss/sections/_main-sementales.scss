@@ -2,11 +2,14 @@
 .mainsementales {
     &__flexsementales {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         margin-top: 30px;
         margin-bottom: 30px;
+        img{
+            padding: 20px;
+        }
     }
 
     &__infosementales {
@@ -26,13 +29,8 @@
         .tamaño-padrillos {
             width: 350px;
             margin: auto;
-            padding: 10px;
         }
-        .video {
-            width: 250px;
-            height: 215px;
-            margin: auto;
-        }
+        
         &__infosementales{
             p{
                 font-size: 15px;

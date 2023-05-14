@@ -133,9 +133,9 @@
 
 @media (max-width: 576px) {
   .mainindex {
-    height: 70vh; }
+    min-height: 70vh; }
     .mainindex__tituloharas {
-      height: 90px; }
+      min-height: 90px; }
       .mainindex__tituloharas h1 {
         font-size: 36px;
         margin: 10px; }
@@ -147,11 +147,13 @@
 /* SECCION SEMENTALES */
 .mainsementales__flexsementales {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
   margin-bottom: 30px; }
+  .mainsementales__flexsementales img {
+    padding: 20px; }
 
 .mainsementales__infosementales {
   width: 70%;
@@ -163,11 +165,6 @@
     font-size: 30px; }
   .mainsementales .tamaño-padrillos {
     width: 350px;
-    margin: auto;
-    padding: 10px; }
-  .mainsementales .video {
-    width: 250px;
-    height: 215px;
     margin: auto; }
   .mainsementales__infosementales p {
     font-size: 15px; } }
@@ -244,64 +241,44 @@
     grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 0.2fr 0.3fr 0.8fr 0.3fr 0.5fr;
     grid-template-areas: "dashin-img" "dashin-tb" "ava-img" "ava-tb" "fell-img" "fell-tb" "hempen-img" "hempen-tb" "creme-img" "creme-tb"; }
   .dashin-img {
-    max-width: 100%;
     background-color: whitesmoke;
     border-top: 1px solid black; }
     .dashin-img img {
-      max-width: 100%;
       padding: 0 10px; }
   .dashin-tb {
-    max-width: 100%;
     padding: 40px;
-    margin: 0;
     background-color: white; }
   .ava-img {
-    max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0;
     border-top: 1px solid black; }
     .ava-img img {
-      max-width: 100%;
       padding: 0 10px; }
   .ava-tb {
-    max-width: 100%;
     padding: 40px;
-    margin: 0;
     background-color: white; }
   .fell-img {
-    max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0;
     border-top: 1px solid black; }
     .fell-img img {
-      max-width: 100%;
       padding: 0 10px; }
   .fell-tb {
-    max-width: 100%;
     padding: 40px;
-    background-color: white;
-    margin: 0; }
+    background-color: white; }
   .hempen-img {
-    max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0;
     border-top: 1px solid black; }
     .hempen-img img {
-      max-width: 100%;
       padding: 0 10px; }
   .hempen-tb {
-    max-width: 100%;
     padding: 40px;
-    background-color: white;
-    margin: 0; }
+    background-color: white; }
   .creme-img {
     max-width: 100%;
     background-color: whitesmoke;
     padding: 10 40px;
-    margin: 0;
     border-top: 1px solid black; }
     .creme-img img {
       max-width: 100%;
@@ -309,8 +286,7 @@
   .creme-tb {
     max-width: 100%;
     background-color: white;
-    padding: 40px;
-    margin: 0; }
+    padding: 40px; }
   p {
     font-size: 1rem; } }
 
