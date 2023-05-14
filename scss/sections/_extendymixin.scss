@@ -1,7 +1,17 @@
-// extend aplicado en grid productos en venta//
+
+// Extend aplicado en grid productos en venta//
 .grid-prod {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid 1px black;
+}
+
+
+// Mixin aplicado en el grid madres text//
+@mixin madrestext($pad){
+    background-color: whitesmoke;
+    text-align: left;
+    padding: $pad;
+    height: 100%;
 }

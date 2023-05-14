@@ -30,18 +30,12 @@
 
 .dashin-tb {
     grid-area: dashin-tb;
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 40px;
-    height: 100%;
+    @include madrestext (40px);
 }
 
 .ava-tb {
     grid-area: ava-tb;
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 40px;
-    height: 100%;
+    @include madrestext (40px);
 }
 
 .ava-img {
@@ -54,18 +48,12 @@
 
 .fell-tb {
     grid-area: fell-tb;
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 120px 40px 10px 40px;
-    height: 100%;
+    @include madrestext (120px 40px 10px 40px);   
 }
 
 .hempen-tb {
     grid-area: hempen-tb;
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 120px 40px 10px 40px;
-    height: 100%;
+    @include madrestext (120px 40px 10px 40px);  
 }
 
 .hempen-img {
@@ -78,10 +66,7 @@
 
 .creme-tb {
     grid-area: creme-tb;
-    background-color: whitesmoke;
-    text-align: left;
-    padding: 120px 40px 10px 40px;
-    height: 100%;
+    @include madrestext (120px 40px 10px 40px);  
 }
 
 // media query - estrategia mobile last//
@@ -126,8 +111,6 @@
         img {
             padding: 0 10px;
         }
-
-
     }
 
     .ava-tb {
