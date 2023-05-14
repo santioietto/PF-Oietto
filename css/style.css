@@ -95,6 +95,7 @@
   .mainsementales__titulopadrillos {
     font-size: 28px; }
   .fondo-secciones-titulo {
+    padding: 10px;
     text-align: center; } }
 
 @media (max-width: 390px) {
@@ -361,9 +362,7 @@
   .prod-venta {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "potrillo1" "potrillo2" "potrillo3" "potrillo4" "potrillo5" "potrillo6"; }
-  .potrillo1 .tamaño-potrillos, .potrillo2 .tamaño-potrillos, .potrillo3 .tamaño-potrillos, .potrillo4 .tamaño-potrillos, .potrillo5 .tamaño-potrillos, .potrillo6 .tamaño-potrillos {
-    max-width: 100%; } }
+    grid-template-areas: "potrillo1" "potrillo2" "potrillo3" "potrillo4" "potrillo5" "potrillo6"; } }
 
 /* SECCION CONTACTO */
 .maincontacto .formulario {
