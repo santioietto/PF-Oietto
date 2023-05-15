@@ -135,7 +135,7 @@
   .mainindex {
     min-height: 70vh; }
     .mainindex__tituloharas {
-      min-height: 90px; }
+      max-height: 90px; }
       .mainindex__tituloharas h1 {
         font-size: 36px;
         margin: 10px; }
